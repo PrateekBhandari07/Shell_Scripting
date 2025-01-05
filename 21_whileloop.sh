@@ -3,5 +3,5 @@ num=10
 while [ $count -le $num ]
 do
 	echo " Numbers are $count "
-	let count++
+	((count++))
 done	
